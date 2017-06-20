@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.imd.view.ReportsController">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" text="Relatórios">
+         <font>
+            <Font name="Impact" size="30.0" />
+         </font>
+      </Label>
+      <HBox layoutX="14.0" layoutY="52.0" spacing="51.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#handlePatientReport" styleClass="button-back" text="Pacientes" />
+            <Button mnemonicParsing="false" onAction="#handleDoctorReport" styleClass="button-back" text="Medicos" />
+            <Button mnemonicParsing="false" onAction="#handleSpecialtyReport" styleClass="button-back" text="Especialidades" />
+            <Button mnemonicParsing="false" onAction="#handleSectorReport" styleClass="button-back" text="Setores" />
+            <Button mnemonicParsing="false" onAction="#handleAppointmentReport" styleClass="button-back" text="Consultas" />
+         </children>
+      </HBox>
+      <TextArea fx:id="textArea" editable="false" layoutX="14.0" layoutY="94.0" prefHeight="387.0" prefWidth="621.0" />
+   </children>
+</AnchorPane>

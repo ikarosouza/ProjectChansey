@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="650.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.imd.view.DoctorOverviewController">
+   <children>
+      <VBox layoutX="10.0" layoutY="14.0" prefHeight="475.0" prefWidth="633.0" spacing="20.0">
+         <children>
+            <Label text="Detalhes">
+               <font>
+                  <Font name="Impact" size="30.0" />
+               </font>
+            </Label>
+            <VBox prefHeight="285.0" prefWidth="633.0" spacing="30.0">
+               <children>
+                  <HBox spacing="5.0">
+                     <children>
+                        <Label text="Nome:">
+                           <font>
+                              <Font name="System Bold" size="13.0" />
+                           </font></Label>
+                        <Label fx:id="nameLabel" />
+                     </children>
+                  </HBox>
+                  <HBox spacing="60.0">
+                     <children>
+                        <HBox spacing="5.0">
+                           <children>
+                              <Label text="CRM">
+                                 <font>
+                                    <Font name="System Bold" size="13.0" />
+                                 </font></Label>
+                              <Label fx:id="crmNumberLabel" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </HBox>
+                  <HBox spacing="60.0">
+                     <children>
+                        <HBox spacing="5.0">
+                           <children>
+                              <Label text="Telefone:">
+                                 <font>
+                                    <Font name="System Bold" size="13.0" />
+                                 </font></Label>
+                              <Label fx:id="phoneLabel" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </HBox>
+                  <HBox spacing="40.0">
+                     <children>
+                        <HBox spacing="5.0">
+                           <children>
+                              <Label text="Especialidade(s):">
+                                 <font>
+                                    <Font name="System Bold" size="13.0" />
+                                 </font></Label>
+                              <Label fx:id="specialtiesLabel" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </HBox>
+                  <HBox spacing="40.0">
+                     <children>
+                        <HBox spacing="5.0">
+                           <children>
+                              <Label text="Setor(es):">
+                                 <font>
+                                    <Font name="System Bold" size="13.0" />
+                                 </font></Label>
+                              <Label fx:id="sectorsLabel" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+            <HBox spacing="10.0">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#handleBack" styleClass="button-back" text="Voltar" />
+                  <Button mnemonicParsing="false" onAction="#handleEdit" styleClass="button-edit" text="Editar" />
+                  <Button mnemonicParsing="false" onAction="#handleDelete" styleClass="button-delete" text="Deletar" />
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

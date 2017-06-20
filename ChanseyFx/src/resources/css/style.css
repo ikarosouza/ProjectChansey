@@ -1,0 +1,73 @@
+.button-menu {
+	-fx-background-color: #363a3a;
+	-fx-text-fill: white;
+	-fx-background-radius: 0,0,0,0;
+	-fx-pref-width: 152px;
+	-fx-pref-height: 38px;	
+}
+
+.button-menu:hover {
+	-fx-background-color: #019da3;
+	-fx-cursor: hand;	
+}
+
+.button-search {
+	-fx-background-color: darkslateblue ;
+	-fx-text-fill: white;
+}
+
+.button-search:hover {
+	-fx-cursor: hand;	
+}
+
+.button-clean {
+	-fx-background-color: coral ;
+	-fx-text-fill: white;
+}
+
+.button-clean:hover {
+	-fx-cursor: hand;	
+}
+
+.button-new {
+	-fx-background-color: limegreen ;
+	-fx-text-fill: white;
+}
+
+.button-new:hover {
+	-fx-cursor: hand;	
+}
+
+.button-edit {
+	-fx-background-color: deepskyblue ;
+	-fx-text-fill: white;
+}
+
+.button-edit:hover {
+	-fx-cursor: hand;	
+}
+
+.button-delete {
+	-fx-background-color: orangered ;
+	-fx-text-fill: white;
+}
+
+.button-delete:hover {
+	-fx-cursor: hand;	
+}
+
+.button-back {
+	-fx-background-color: darkcyan ;
+	-fx-text-fill: white;
+}
+
+.button-back:hover {
+	-fx-cursor: hand;	
+}
+
+.comboBox{
+	-fx-background-color: white;
+	-fx-border-radius: 3px;
+	-fx-border-color: #a0a0a0;
+}
+

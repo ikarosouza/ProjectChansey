@@ -1,0 +1,19 @@
+.button-menu {
+	-fx-background-color: #363a3a;
+	-fx-text-fill: white;
+	-fx-background-radius: 0,0,0,0;
+	-fx-pref-width: 152px;
+	-fx-pref-height: 38px;	
+}
+
+.button-menu:hover {
+	-fx-background-color: #019da3;
+	-fx-cursor: hand;	
+}
+
+.comboBox{
+	-fx-background-color: white;
+	-fx-border-radius: 3px;
+	-fx-border-color: #a0a0a0;
+}
+
